@@ -1,0 +1,46 @@
+/* SignUpForm.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-up-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  background-color: #f9f9f9;
+}
+
+.sign-up-form h2 {
+  text-align: center;
+}
+
+.sign-up-form input[type="text"],
+.sign-up-form input[type="email"],
+.sign-up-form input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.sign-up-form button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 10;
+  border: none;
+  border-radius: 15px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-up-form button:hover {
+  background-color: #0056b3;
+}
